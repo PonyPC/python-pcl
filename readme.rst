@@ -1,3 +1,18 @@
+Add support for Nvidia Jetson Nano JetPack 4.4
+============
+Note:
+Please disable system GUI and set swap at least 2Gb to compile.
+Disable GUI
+```
+sudo systemctl set-default multi-user.target
+sudo reboot
+```
+Enable GUI
+```
+sudo systemctl set-default graphical.target
+sudo reboot
+```
+
 .. raw:: html
 
     <a href="https://github.com/strawlab/python-pcl">
@@ -15,23 +30,6 @@
     </script>
 
     <div align="center"><img src="docs/image/pcl_logo_958x309.png" width="309"/></div>
-
-
-Add support for Nvidia Jetson Nano JetPack 4.4
-============
-Note:
-Please disable system GUI and set swap at least 2Gb to compile.
-Disable GUI
-``
-sudo systemctl set-default multi-user.target
-sudo reboot
-``
-Enable GUI
-``
-sudo systemctl set-default graphical.target
-sudo reboot
-``
-
 
 Introduction
 ============
