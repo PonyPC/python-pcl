@@ -19,6 +19,20 @@
 
 Add support for Nvidia Jetson Nano JetPack 4.4
 ============
+Note:
+Please disable system GUI and set swap at least 2Gb to compile.
+Disable GUI
+```
+sudo systemctl set-default multi-user.target
+sudo reboot
+```
+Enable GUI
+```
+sudo systemctl set-default graphical.target
+sudo reboot
+```
+
+
 Introduction
 ============
 
